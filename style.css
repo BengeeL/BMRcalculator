@@ -1,0 +1,90 @@
+.form {
+  margin: 5%;
+}
+
+input[type=text], input[type=number], select {
+  width: 100%;
+}
+
+input[type=submit] {
+  background-color: #fff;
+  border-style: none;
+  border-radius: 25px;
+  padding: 10px;
+}
+
+input[type=submit]:hover {
+  background-color: #e9c46a;
+}
+
+.container {
+  font-family: "Poppins", sans-serif;
+  background-color: #264653;
+  color: #fff;
+  margin: 5% 10%;
+}
+
+.nav {
+  display: flex;
+  background-color: red;
+  width: 100%;
+  height: 70px;
+}
+
+.metric-btn {
+  background-color: #264653;
+  width: 50%;
+  padding: 23px 5%;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.imperial-btn {
+  background-color: #e76f51;
+  width: 50%;
+  padding: 23px 5% 0;
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.section {
+  display: flex;
+  padding: 2% 0;
+}
+
+.labels {
+  width: 20%;
+  text-align: right;
+  margin-right: 1%;
+}
+
+.inputs {
+  width: 24%;
+}
+
+.subtitle {
+  font-weight: 700;
+}
+
+.radio-question {
+  display: flex;
+}
+
+.radio-btn {
+  width: 5%;
+  margin-right: 2%;
+}
+
+.radio-text {
+  width: 93%;
+}
+
+.submit-section {
+  width: 100%;
+  text-align: right;
+}
+
+.result {
+  width: 100%;
+  text-align: center;
+}
