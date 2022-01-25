@@ -91,7 +91,11 @@ function calculateBMR() {
   }
 
   // Display resutl on page (Daily calorie intake)
-  document.getElementById("result-text").innerHTML = ("Your current BMR is " + Math.round(bmr) + " calories daily.");
+  if (bmr != NaN){
+    document.getElementById("result-text").innerHTML = ("Your current BMR is " + Math.round(bmr) + " calories daily.");
+  } else {
+    document.getElementById("result-text").innerHTML = ("Please make sure you fill every fields.");
+  }
 }
 
 function updateMetricValue() {
